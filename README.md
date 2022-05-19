@@ -10,9 +10,9 @@
 <h2> Lista de Aulas </h2>
 <br>
    
-   * [Aula 01](https://github.com/JonathanBrasil/Aulas-MySQL/tree/main/Aula%2001%20e%2002)
+   * [Aula 01](https://github.com/JonathanBrasil/Aulas-HTML/blob/main/Aulas/Aula%2001.html)
    	
-	* Introdução ao MySQL - Conceitos de Script - Atividades 
+	* Introdução ao HTML 5 - Principais Tags - Testando divs e inputs 
          
    * [Aula 02](https://github.com/JonathanBrasil/Aulas-MySQL/tree/main/Aula%2003)
    	
