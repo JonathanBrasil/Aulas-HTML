@@ -68,5 +68,5 @@
 
 
 <h4 align="center"> 
-	🚧  Obrigado por visitar!! :) 🚀 Em construção...  🚧
+	🚧  Obrigado por visitar!! 🙋🏾
 </h4>
