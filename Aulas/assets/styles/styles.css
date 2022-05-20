@@ -1,0 +1,26 @@
+<style>
+
+        #primeiroP{
+            color: darkblue;
+            text-align: center;
+            font-size: large;
+            font-weight: bold;
+
+
+        }
+
+        p{ 
+            color: firebrick;
+            text-align: center;
+            font-size: large;
+            font-style: oblique;
+
+        }
+
+        .rodape{
+            font-weight: 100;
+            text-align: end;
+
+        }
+        
+    </style>
