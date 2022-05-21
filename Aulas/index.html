@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsividade, para se adaptar diferentes tamanho de telas-->
     <title>Aulas de HTML</title> <!--Nome que aparece na aba do navegador-->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <style>
+        html{
+            background:url(https://cdn.wallpapersafari.com/86/22/l1Ie2N.jpg)   no-repeat center fixed;
+            background-size: cover;
+        }
+        body{
+            color: black;
+        }
+    </style>
+
 </head>
 <body>
-    <header> <!--Cabeçalho-->
-        <h1>Aulas de HTML 5</h1>
-        <h2>Página realizada durante o bootcamp Generation</h2>
-    </header>
-
     <nav> <!--Serve para fazer menu-->
-        <ul class="menu">
+        <ul id="menu">
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -25,17 +31,23 @@
             </li>
         </ul>
     </nav>
+    <header class="titulo"> <!--Cabeçalho-->
+        <h1>Aulas de Front-end</h1>
+        <h2>Página realizada durante o bootcamp Generation</h2>
+    </header>
+
+
 
     <main> <!--sessão principal-->
-        <section>
+        <section class="texto">
             <p>Nessa página irei organizar as anotações realizadas durante as aulas
-                de html para que eu possa testar os conceitos simultaneamente
+                de Front-end para que eu possa testar os conceitos simultaneamente
                 com a parte teórica. :)
             </p>
 
         </section>
     </main>
-    <footer>
+    <footer class="rodape">
         <p>Obrigado por visitar!</p>
     </footer>
 
