@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsividade, para se adaptar diferentes tamanho de telas-->
     <title>Aulas de HTML</title> <!--Nome que aparece na aba do navegador-->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <style>
+        html{
+            background: url(https://innovatewebdevelopment.com/wp-content/uploads/2020/07/comingsoon.jpg)no-repeat fixed center;
+            background-size: cover;
+        }
+        body{
+            color: rgb(255, 255, 255);
+        }
+    </style>
+
 </head>
 <body>
-    <header> <!--Cabeçalho-->
-        <h1>Aulas de HTML 5</h1>
-        <h2>Página realizada durante o bootcamp Generation</h2>
-    </header>
-
     <nav> <!--Serve para fazer menu-->
-        <ul class="menu">
+        <ul id="menu">
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -23,19 +29,47 @@
             <li>
                 <a href="Aula 02.html">Aula 02</a>
             </li>
+            <li>
+                <a href="Aula 03.html">Aula 03</a>
+            </li>
         </ul>
     </nav>
+    <header class="titulo"> <!--Cabeçalho-->
+        <h1>Aulas de Front-end</h1>
+        <hr>
+        <h4>Página realizada durante o bootcamp Generation</h4>
+    </header>
+
+
 
     <main> <!--sessão principal-->
         <section>
-            <p>Nessa página irei organizar as anotações realizadas durante as aulas
-                de html para que eu possa testar os conceitos simultaneamente
-                com a parte teórica. :)
+            <p>
+                Nessa página irei organizar as anotações realizadas durante as aulas
+                de Front-end para que eu possa testar os conceitos simultaneamente
+                com a parte teórica.
+                
+                
             </p>
+            <p>
+                    Durante as aulas iremos abordar as três principais linguagens utilizadas no front-end:
+            </p>
+            <hr>
+
+            <div class="container2 texto">
+             
+
+                <p>
+                    <p> <a href="Aula 01.html">HTML: </a>linguagem de marcação utilizada para estruturar os elementos da página, como parágrafos, links, títulos, tabelas, imagens e até vídeos.</p>
+                    <P> <a href="Aula 02.html"> CSS:</a> linguagem de estilos utilizada para definir cores, fontes, tamanhos, posicionamento e qualquer outro valor estético para os elementos da página.</P>
+                    <p> <a href="Aula 03.html">Javascript:</a> linguagem de programação utilizada para deixar a página com mais movimento, podendo atualizar elementos dinamicamente e lidar melhor com dados enviados e recebidos na página. </p>
+                </p>
+
+            </div>
 
         </section>
     </main>
-    <footer>
+    <footer class="rodape">
         <p>Obrigado por visitar!</p>
     </footer>
 

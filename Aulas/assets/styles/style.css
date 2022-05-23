@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    font-size: large;
+    text-align: center;
+}
+
+.rodape{
+    font-weight: 100;
+    text-align: center;
+    color:darkgoldenrod;
+
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.container p {
+
+    background-color: rgba(255, 255, 255);
+    flex-flow: row;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    display: flex;
+    align-items: stretch;
+    text-align: justify;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+#menu {
+    justify-content: flex-end;
+    display: flex;
+    height: 100px;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.45);
+   
+}
+
+#menu li {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.814);
+}
+
+#menu li a:hover {
+    color: rgb(0, 166, 255);
+}
+
+.texto {
+    text-align: center;
+    color: black;
+    size: 20px;
+
+}
+
+.justify{
+    text-align: justify;
+    size: 18px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: nowrap;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+}
+
+
+/* AULA 03 STYLES */
+
+.container3{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.container3 p {
+
+    background-color: rgba(255, 202, 40, 0.9);
+    flex-flow: row;
+    size: 20px;
+    text-shadow: white;
+    color: rgb(33, 33, 33);
+    width: 300px;
+    display: flex;
+    align-items: stretch;
+    text-align: justify;
+    padding: 15px;
+    margin: 20px;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+
+
+
+#menu3 {
+    justify-content: flex-end;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 202, 40, 0.9);
+   
+}
+
+#menu3 li {
+
+    background-color: var(--fundo);
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+
+
+    border-radius: 8px;
+    border: 2px solid var(--text);
+
+
+}
+
+#menu3 li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu3 li a:hover {
+    color: rgb(140, 0, 140);
+}
+
+/* botao */
+
+.btn{
+    margin-top: 32px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid var(--text);
+    background-color: var(--fundo);
+    font-weight: bold;
+}
+
+.dark-theme{
+    background-color: var(--text);
+    color: var(--fundo);
+}
+
+.btn{
+    margin-top: 32px;
+    width: 160px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid var(--text);
+    background-color: var(--fundo);
+    font-weight: bold;
+}

@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 02</title>
 
-    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <style>
+        html{
+            background:url(https://i0.wp.com/themarketingnerdz.com/wp-content/uploads/2018/06/abstract-shades-blue-shade-free-desktop-background-1920x1080.png) no-repeat center fixed;
+            background-size: cover;
+        }
+        body{
+            color: aliceblue;
+        }
+    </style>
 </head>
 <body>
-
-
-    <header>
-        <h1>segundo pilar do front: CSS</h1>
-        <h2>conceitos </h2>
-    </header>
     <nav>
-        <ul>
+        <ul id="menu">
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -26,18 +29,24 @@
             <li>
                 <a href="Aula 02.html">Aula 02</a>
             </li>
+            <li>
+                <a href="Aula 03.html">Aula 03</a>
+            </li>
         </ul>
     </nav>
     <main>
-        <section>
+
+        <div class="titulo">
+            <h1>Segundo Pilar do Front-end: CSS</h1>
+            <h2>Conceitos CSS </h2>
+        </div>
+        
+
+        <section class="container">
+            
+          
+
             <article>
-                <p id="primeiroP">
-                Nesse parágrafo estamos testando algumas formtações, de cor, ordenação do texto e tamanho.
-                Usando CSS externo na tag P utilizado ID ou Class. 
-                </p>
-                <P>
-                    Nesse parágrafo, está recebendo CSS geral de todas as tags P, configuradas com CSS externo na tag Style
-                </P>
                 <p>
                     Foi criado um style CSS externo, na pasta assets e depois foi carregado na aba Head onde carrega os metas e dessa forma foi possível refaturar a página.
                     Nessa Aula utilizamos CSS in line, CSS interno e CSS externo.
@@ -46,7 +55,20 @@
                     duas formas. 
 
                 </p>
+                <p>
+                    Utilizamos também os conceitos de FlexBox para organizar os textos e imagens e obter também um resultado responsivo para diferentes telas; 
+
+                </p>
+                <p>
+                    O background foi criado diretamente na head; com o size do tipo cover.
+                </p>
             </article>
+
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="icone css" width="300">
+            </div>
+
+
 
         </section>
     </main>

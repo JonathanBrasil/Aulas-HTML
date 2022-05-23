@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="stylesheet" href = "./assets/styles/style.css">
+
+    <style>
+:root{
+    --fundo: #f5f5f5;
+    --text: #212121;
+}
+
+body{
+    background-color: var(--fundo);
+    color: var(--text);
+}
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <ul id="menu3">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="Aula 01.html">Aula 01</a>
+            </li>
+            <li>
+                <a href="Aula 02.html">Aula 02</a>
+            </li>
+            <li>
+                <a href="Aula 03.html">Aula 03</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+
+        <div class="titulo">
+            <h1>Terceiro Pilar do Front-end: JavaScript</h1>
+            <h2>Conceitos JS: </h2>
+        </div>
+        
+
+        <section class="container3">
+            
+          
+
+            <article>
+
+                <p>
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.                </p>
+                <p>
+                    Nessa aula aprendemos sobre o conceito de funções, eventos e DOM:
+
+                    O java script é uma linguagem orientada a funções: Um conjunto de instruções que executa uma tarefa ou calcula um valor. 
+                    
+                    Os eventos são basicamente um conjunto de ações que são realizadas em um determinado elemento da página web, como passar o mouse sobre uma imagem por exemplo. 
+                    
+                    Document Object Model: è utilizado pelo navegador Web para representuar sua página Web. 
+
+                </p>
+
+                <p>
+                    Referenciamos as variáveis através das palavras reservadas: 'var', 'let', 'const'. 
+                </p>
+
+            </article>
+
+            <div onclick="darkTheme()">
+                <img src="https://pcodinomebzero.neocities.org/Imagens/javascript1.png" alt="icone JS" width="250" >
+            </div>
+
+            <form onsubmit="enviar()">
+
+                <h2>Testando Funções, eventos e DOM: </h2>
+
+               <p> <label for="nome">Insira um nome: </label><input type="text" id="nome" onkeyup="validaNome()"></p>
+               <div id="txtNome"></div>
+               
+                <p> <label for="email">Insira um email: </label><input type="email" id="email" onkeyup="validaEmail()"></p>
+                <div id="txtEmail"></div>
+
+                <p> <label for="assunto">Insira uma texto: </label><textarea name="assunto" id="assunto" onkeyup="validaTexto()"></textarea></p>
+                <div id="txtAssunto"></div>
+               
+                <button class="btn" id="tempo" onclick="tempoMsg()">Enviar</button>
+                
+                <div id="espaco"></div>
+
+            </form>
+
+
+
+        </section>
+    </main>
+
+    <!-- Script é adicionado ao final do body -->
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>
