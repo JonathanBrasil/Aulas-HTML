@@ -7,12 +7,13 @@ let nome = window.document.getElementById("nome")
 
 let email = document.querySelector("#email")
 
-let data = document.querySelector("#data")
+let assunto = document.querySelector("#assunto")
 
 let tempo = document.querySelector('#tempo')
 
 // EVENTOS 
 
+//verificando e-mail
 function validaEmail (){
 
     let txtEmail = document.querySelector('#txtEmail')
@@ -20,12 +21,25 @@ function validaEmail (){
         txtEmail.innerHTML = 'email invalido'
         txtEmail.style.color = 'red'
         txtEmail.style.align = "center"
-    }
-    else {
-        txtEmail.innerHTML = "email valido"
-        txtEmail.style.color = 'green'
+    }  else{
+        txtEmail.innerHTML = ""
     }
 
+
+}
+
+function enviar(){
+    if(verifica()){
+        alert("Olá " + nome.value + "! Email enviado com sucesso")
+    }
+}
+
+function verifica(){
+    if(nome.value == "" || email.value == "" || assunto.value == ""){
+        alert("Todos os campos são obrigatórios")
+        return false
+    }
+    return true
 }
 
 function insereHTML(){
@@ -34,4 +48,8 @@ function insereHTML(){
 
 function tempoMsg(){
     setTimeout("insereHTML()", 3000)
+}
+
+function darkTheme(){
+    document.body.classList.toggle('dark-theme')
 }

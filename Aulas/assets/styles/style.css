@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 .titulo{
@@ -7,8 +12,8 @@
 
 .rodape{
     font-weight: 100;
-    text-align: end;
-    color: black;
+    text-align: center;
+    color:darkgoldenrod;
 
 }
 
@@ -25,7 +30,7 @@
 
     background-color: rgba(255, 255, 255);
     flex-flow: row;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 300px;
     display: flex;
     align-items: stretch;
@@ -96,8 +101,7 @@
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;
-    margin: 10px;
+  
 }
 
 .container3 p {
@@ -113,8 +117,12 @@
     text-align: justify;
     padding: 15px;
     margin: 20px;
+    padding: 15px;
+    margin: 10px;
 
 }
+
+
 
 
 #menu3 {
@@ -128,22 +136,53 @@
 }
 
 #menu3 li {
-    background-color: rgb(0, 0, 0);
+
+    background-color: var(--fundo);
     width: 80px;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
     font-size: 20px;
     display: inline;
     text-decoration: none;
+
+
+    border-radius: 8px;
+    border: 2px solid var(--text);
+
 
 }
 
 #menu3 li a {
     text-decoration: none;
-    color: rgba(255, 202, 40, 0.9);
+    color: black;
 }
 
 #menu3 li a:hover {
     color: rgb(140, 0, 140);
+}
+
+/* botao */
+
+.btn{
+    margin-top: 32px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid var(--text);
+    background-color: var(--fundo);
+    font-weight: bold;
+}
+
+.dark-theme{
+    background-color: var(--text);
+    color: var(--fundo);
+}
+
+.btn{
+    margin-top: 32px;
+    width: 160px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid var(--text);
+    background-color: var(--fundo);
+    font-weight: bold;
 }

@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 03</title>
     <link rel="stylesheet" href = "./assets/styles/style.css">
+
     <style>
-        html{
-            background-color: rgba(0, 0, 0, 0.9);
-        }
-        body{
-            color: white;
-        }
+:root{
+    --fundo: #f5f5f5;
+    --text: #212121;
+}
+
+body{
+    background-color: var(--fundo);
+    color: var(--text);
+}
 
     </style>
 
@@ -67,11 +71,11 @@
 
             </article>
 
-            <div>
-                <img src="https://pcodinomebzero.neocities.org/Imagens/javascript1.png" alt="icone JS" width="300">
+            <div onclick="darkTheme()">
+                <img src="https://pcodinomebzero.neocities.org/Imagens/javascript1.png" alt="icone JS" width="250" >
             </div>
 
-            <article>
+            <form onsubmit="enviar()">
 
                 <h2>Testando Funções, eventos e DOM: </h2>
 
@@ -81,24 +85,19 @@
                 <p> <label for="email">Insira um email: </label><input type="email" id="email" onkeyup="validaEmail()"></p>
                 <div id="txtEmail"></div>
 
-                <p> <label for="assunto">Insira uma texto: </label><textarea name="assunto" id="data"></textarea></p>
-
-                <div>
-                    <button id="tempo" onclick="tempoMsg()">Enviar</button>
-                </div>
+                <p> <label for="assunto">Insira uma texto: </label><textarea name="assunto" id="assunto" onkeyup="validaTexto()"></textarea></p>
+                <div id="txtAssunto"></div>
+               
+                <button class="btn" id="tempo" onclick="tempoMsg()">Enviar</button>
+                
                 <div id="espaco"></div>
 
-            </article>
+            </form>
 
 
 
         </section>
     </main>
-
-    <footer class="rodape">
-        Fim da terceira aula! ;)
-    </footer>
-
 
     <!-- Script é adicionado ao final do body -->
     <script src="./assets/js/script.js"></script>
