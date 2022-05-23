@@ -23,7 +23,7 @@
 
 .container p {
 
-    background-color: rgba(255, 255, 255, 0.153);
+    background-color: rgba(255, 255, 255);
     flex-flow: row;
     color: white;
     width: 300px;
@@ -40,7 +40,7 @@
     display: flex;
     height: 100px;
     align-items: stretch;
-    background-color: rgba(0, 0, 0, 0.412);
+    background-color: rgba(0, 0, 0, 0.45);
    
 }
 
@@ -72,5 +72,78 @@
 
 }
 
+.justify{
+    text-align: justify;
+    size: 18px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: nowrap;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+}
 
 
+/* AULA 03 STYLES */
+
+.container3{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.container3 p {
+
+    background-color: rgba(255, 202, 40, 0.9);
+    flex-flow: row;
+    size: 20px;
+    text-shadow: white;
+    color: rgb(33, 33, 33);
+    width: 300px;
+    display: flex;
+    align-items: stretch;
+    text-align: justify;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+
+#menu3 {
+    justify-content: flex-end;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 202, 40, 0.9);
+   
+}
+
+#menu3 li {
+    background-color: rgb(0, 0, 0);
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+
+}
+
+#menu3 li a {
+    text-decoration: none;
+    color: rgba(255, 202, 40, 0.9);
+}
+
+#menu3 li a:hover {
+    color: rgb(140, 0, 140);
+}
