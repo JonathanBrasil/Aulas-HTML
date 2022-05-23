@@ -6,7 +6,12 @@
 <p align="center"> 📁 Aulas e exercícios sobre linguagem JavaScript realizados durante o Bootcamp Generation BR </p>
 <br>
 <br>
+## Menu:
 
+1. <a href="#res">Resumo da aula</a>
+2. <a href="#img01">Função mudar tema</a>
+3. <a href="#img02">Função enviar</a>
+4. <a href="#img03">Função verificar email</a>
 
 <br>
 
@@ -26,36 +31,37 @@ Basicamente é usado para criar intereção no conteúdo Web, manipular elemento
 	Eventos: Os eventos são basicamente um conjunto de ações que são realizadas em um determinado elemento da página web, como passar o mouse sobre uma imagem por exemplo.
 	DOM: Document Object Model: è utilizado pelo navegador Web para representuar sua página Web.
 </p>
-	
+<hr>	
 <br>
 <h2>
-	Alguns dos testes realizados: 
+	Algumas das funções criadas e utilizadas nas páginas: 
 </h2>
 <br>
 
-<h3>function darkTheme()</h3>
-<p>Função para mudar o tema da página, ao clicar na imagem com o ícone de JavaScript evento: 'onclick' </p>
-<p>Ao clicar na imagem, a função mudar tema irá verificar se existe classe </p>
-<div id="img01"> <img src="https://i.ibb.co/CtQRZJN/mudar-tema.gif"> </div>
+<h3  id="img01">function darkTheme( )</h3>
+	
+<p>Função para mudar o tema da página, ao clicar na imagem com o ícone de JavaScript evento: 'onclick'
+Ao clicar na imagem, a função mudar tema irá verificar se existe classe </p>
+<br>
+<div> <img src="https://i.ibb.co/CtQRZJN/mudar-tema.gif"> </div>
 <br>
 <br>
 
-<h3>function enviar() </h3>
-<p>Função para verificar se todos os campos do formulário foram preenchidos, ao clicar no botão enviar 'onsubmit' e enviar alerta caso não</p>
-<div id="img02"> <img src="https://i.ibb.co/ScYx3F2/Verifica-campos.gif"> </div>
+<h3  id="img02">function enviar( ) </h3>
+	
+<p>ao clicar no botão enviar 'onsubmit', A função irá verificar se todos os campos do formulário foram preenchidos,  e enviar um alerta caso esteja em branco</p>
+<br>
+<div> <img src="https://i.ibb.co/ScYx3F2/Verifica-campos.gif"> </div>
+<br>
+<br>
 <br>
 
-<h3>function validaEmail () </h3>
-<p>Função para verificar se o campo e-mail foi preenchido corretamente, precisa conter "@" e ".", evento 'onkeyup'</p>
-<div id ="img03"> <img src="https://i.ibb.co/P92n021/enviar-formul-rio.gif"> </div>
+<h3 id ="img03">function validaEmail ( ) </h3>
+
+<p> Ao digitar e soltar a tecla, evento 'onkeyup', a função irá verificar se o campo e-mail foi preenchido corretamente, precisa conter "@" e "." 
+Caso o e-mail esteja incorreto, irá inserir numa div em branco, uma mensagem: 
+</p>
 <br>
+<div> <img src="https://i.ibb.co/P92n021/enviar-formul-rio.gif"> </div>
 	
 </div>
-<br>
-<br>
-<br>
-
-
-<h4 align="center"> 
-	🟠🔵🟡 Obrigado por visitar 🟡🔵🟠
-</h4>
